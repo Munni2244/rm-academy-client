@@ -1,0 +1,17 @@
+.student:hover{
+    box-shadow: 1px 1px 4px 4px rgb(163, 161, 161);
+}
+.student{
+    width: 90%;
+    
+}
+.student-btn{
+    border: 1px solid #5F9EA0;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.student-btn:hover{
+    background-color: #5F9EA0;
+    color: white;
+}
