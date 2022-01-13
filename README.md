@@ -1,5 +1,5 @@
 Live Link:
-https://admiring-bassi-bb2d70.netlify.app/home
+https://admiring-bassi-bb2d70.netlify.app/
 
 ## RM Academy
 1.	The web site is About an educational institution.
@@ -12,3 +12,4 @@ https://admiring-bassi-bb2d70.netlify.app/home
 * Node Js
 * MongoDb
 * Heroku
+
