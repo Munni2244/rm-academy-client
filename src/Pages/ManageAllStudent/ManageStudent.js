@@ -8,7 +8,7 @@ const ManageStudent = () => {
     const [searchStudent, setSearchStudent] = useState([]);
     //get all Student
     useEffect(() => {
-        fetch('http://localhost:5000/students')
+        fetch('https://peaceful-island-86859.herokuapp.com/students')
             .then(res => res.json())
             .then(data => {
                 setAllStudent(data)
@@ -40,7 +40,7 @@ const ManageStudent = () => {
 
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/student/${id}`, {
+                fetch(`https://peaceful-island-86859.herokuapp.com/student/${id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

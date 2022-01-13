@@ -8,7 +8,7 @@ const StudentDetails = () => {
 // console.log(id);
 
     useEffect(()=>{
-       fetch(`http://localhost:5000/students/${id}`)
+       fetch(`https://peaceful-island-86859.herokuapp.com/students/${id}`)
        .then(res=> res.json())
        .then(data => setStudentsDetails(data))
     },[])

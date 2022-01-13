@@ -18,7 +18,7 @@ const AddStudent = () => {
 
     const onSubmit = (data) => {
 
-        fetch('http://localhost:5000/student', {
+        fetch('https://peaceful-island-86859.herokuapp.com/student', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)

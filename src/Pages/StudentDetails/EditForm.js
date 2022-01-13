@@ -12,7 +12,7 @@ const EditForm = () => {
 // console.log(id);
 
     useEffect(()=>{
-       fetch(`http://localhost:5000/students/${id}`)
+       fetch(`https://peaceful-island-86859.herokuapp.com/students/${id}`)
        .then(res=> res.json())
        .then(data => setEditForm(data))
     },[])
@@ -20,7 +20,7 @@ const EditForm = () => {
     //edit information
     const onSubmit = data => {
       
-        fetch(`http://localhost:5000/student/${id}`, {
+        fetch(`https://peaceful-island-86859.herokuapp.com/student/${id}`, {
             method: 'PUT',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)

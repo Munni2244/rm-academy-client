@@ -5,7 +5,7 @@ const AllStudent = () => {
     const [allStudent, setAllStudent] = useState([]);
     //get all Student
     useEffect(() => {
-        fetch('http://localhost:5000/students')
+        fetch('https://peaceful-island-86859.herokuapp.com/students')
             .then(res => res.json())
             .then(data => {
                 setAllStudent(data)
