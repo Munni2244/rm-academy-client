@@ -36,16 +36,18 @@ const Navigation = () => {
                   <li className="nav-item">
                     <Link to="/allStudent" className="nav-link active text-light" href="#">AllStudent</Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link to="/addStudent" className="nav-link active text-light" href="#">AddStudent</Link>
-                  </li>
+                  </li> */}
       
                 </ul>
                 <form className="d-flex">
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                    
-                      <button className="btn border text-light me-2" type="submit">Login</button>
-                     <button className="btn border text-light" type="submit">Register</button>
+                      {/* <button className="btn border text-light me-2" type="submit">Login</button> */}
+                    <Link to="/addStudent">
+                    <button className="btn border text-light" type="submit">Add Student</button>
+                    </Link>
                   </ul>
       
                 </form>
